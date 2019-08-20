@@ -628,16 +628,7 @@
                 <div id="portfolio_grid" class="portfolio-grid portfolio-masonry masonry-grid-3 shuffle" style="position: relative; overflow: hidden; height: 0px; transition: height 450ms ease-out 0s;">
 
                   <!-- Portfolio Item 1 -->
-                  <figure class="item shuffle-item filtered" data-groups="['all','media']" style="position: absolute; top: 0px; left: 0px; visibility: visible; transition: transform 450ms ease-out 0s, opacity 450ms ease-out 0s;">
-                    <a class="ajax-page-load" href="https://naeemshah.github.io/cv-html/portfolio/vroi.html">
-                      <img src="images/portfolio/vroi.png" alt="">
-                      <div style="display: block; left: 0px; top: 100%; transition: all 300ms ease 0s;">
-                        <h5 class="name">Visualize-Roi</h5>
-                        <small>PHP/Reacjs/Nodejs/Yii/Python</small>
-                        <i class="fa fa-file-text-o"></i>
-                      </div>
-                    </a>
-                  </figure>
+                 
                   <!-- /Portfolio Item 1 -->
 
                   
@@ -915,6 +906,19 @@
     <div id="page-ajax-loaded" class="page-ajax-loaded animated fadeInLeft fadeOutLeft" style="display: block;">
 </div></div>
 
+
+<script id="portfolio-item" type="text/x-handlebars-template">
+  <figure class="item shuffle-item filtered" data-groups="[{{groups}}]" style="position: absolute; top: 0px; left: 0px; visibility: visible; transition: transform 450ms ease-out 0s, opacity 450ms ease-out 0s;">
+    <a class="ajax-page-load" href="{{ajax_link}}">
+      <img src="{{image}}" alt="">
+      <div style="display: block; left: 0px; top: 100%; transition: all 300ms ease 0s;">
+        <h5 class="name">{{name}}</h5>
+        <small>{{tech}}</small>
+        <i class="fa fa-file-text-o"></i>
+      </div>
+    </a>
+  </figure>
+</script>
     
 
     <script src="js/bootstrap.min.js"></script>
@@ -927,5 +931,5 @@
     <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/jquery.hoverdir.js"></script>
     <script src="js/main.js"></script>
-
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.1.2/handlebars.min.js"></script>
+    <script src="js/portfolio.js" ></script>
