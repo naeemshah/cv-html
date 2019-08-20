@@ -1619,7 +1619,7 @@ ul.social-links li:last-child a {
   width: 30px;
   background-color: #eee;
   text-align: center;
-  color: #888;
+  color: black;
 }
 
 .portfolio-nav .portfolio-close-button a:hover {
