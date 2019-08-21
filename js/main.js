@@ -39,7 +39,7 @@
 
         $('#contact-form').on('submit', function (e) {
             if (!e.isDefaultPrevented()) {
-                var url = "contact_form/contact_form.php";
+                var url = "https://formspree.io/naeemshah45@gmail.com";
 
                 $.ajax({
                     type: "POST",

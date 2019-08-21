@@ -1,7 +1,7 @@
 var portfolioItemJson = [
     { 
       "name":"Visualize-ROI",
-      "ajax_link":"https://naeemshah.github.io/cv-html/portfolio/vroi.html",
+      "ajax_link":"http://localhost/cv/portfolio/vroi.html?p=s",
       "groups":'"all", "nodejs", "reactjs", "php", "python", "yii"',
       "image":"images/portfolio/vroi.png",
       "tech":"PHP/Reacjs/Nodejs/Yii/Python"

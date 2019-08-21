@@ -1,4 +1,20 @@
 
+<script>
+     function getQueryString() {
+  var queryString = [];
+  var hash;
+  var hashes = window.location.href
+    .slice(window.location.href.indexOf('?') + 1)
+    .split('&');
+  for (var i = 0; i < hashes.length; i++) {
+    hash = hashes[i].split('=');
+    queryString.push(hash[0]);
+    queryString[hash[0]] = hash[1];
+  }
+  return queryString;
+}
+</script>
+
 <div id="portfolio-page" class="portfolio-page-content">
     
 </div>
@@ -79,7 +95,7 @@
 </script>
 
 <script>
-
+ console.log(getQueryString()["project"])
     
 
 var portfolioItemJson = {
@@ -88,7 +104,7 @@ var portfolioItemJson = {
       "link":"https://visualizeroi.com",
       "images":["images/portfolio/vroi/1.png","images/portfolio/vroi/2.png","images/portfolio/vroi/3.png"],
       "tech":["Reacjs","Nodejs","Yii","Python","Headless Chrome","PHP","Yii","Java"],
-      "desc":"Its a B2B SaaS tool. Used by Organzation Like Dell EMC, Trinet for lead harvesting, ROI Calculation, Breakeven Analysis,Value Collaboratons ETC. "
+      "desc":"B2B SaaS Tool. Used by Organzation Like Dell EMC, Trinet for lead harvesting, ROI Calculation, Breakeven Analysis,Value Collaboratons ETC. "
 
     }
 };
@@ -109,7 +125,7 @@ jQuery(document).ready(function($){
                         loop: true,
                         dots: true,
                         nav: true,
-                        navText: false,
+                        navText: true,
                         margin: 10
                     });
                 }); 
