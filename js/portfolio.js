@@ -1,7 +1,7 @@
 var portfolioItemJson = [
     { 
       "name":"Visualize-ROI",
-      "ajax_link":"https://naeemshah.github.io/cv-html/portfolio/vroi.html?p=s",
+      "ajax_link":"http://naeemshah.me/portfolio/vroi.html?p=s",
       "groups":'"all", "nodejs", "reactjs", "php", "python", "yii"',
       "image":"images/portfolio/vroi.png",
       "tech":"PHP/Reacjs/Nodejs/Yii/Python"
@@ -9,7 +9,7 @@ var portfolioItemJson = [
     },
     { 
       "name":"Easy Jackets",
-      "ajax_link":"https://naeemshah.github.io/cv-html/portfolio/ej.html",
+      "ajax_link":"http://naeemshah.me/portfolio/ej.html",
       "groups":'"all", "wordpress", "reactjs", "php"',
       "image":"images/portfolio/custom_jackets.png",
       "tech":"PHP/Reacjs/Wordpress"
@@ -17,7 +17,7 @@ var portfolioItemJson = [
     },
     { 
       "name":"Service Buddy",
-      "ajax_link":"https://naeemshah.github.io/cv-html/portfolio/vroi.html",
+      "ajax_link":"http://naeemshah.me/portfolio/vroi.html",
       "groups":'"all", "laravel", "php"',
       "image":"images/portfolio/service_buddy.png",
       "tech":"PHP/Laravel/Javascript/Mobile/Stripe"
@@ -26,7 +26,7 @@ var portfolioItemJson = [
     ,
     { 
       "name":"Rapid Soft",
-      "ajax_link":"https://naeemshah.github.io/cv-html/portfolio/vroi.html",
+      "ajax_link":"http://naeemshah.me/portfolio/vroi.html",
       "groups":'"all", "codeigniter", "php"',
       "image":"images/portfolio/rapidsoft.png",
       "tech":"PHP/codeigniter/HTML/CSS"
@@ -35,7 +35,7 @@ var portfolioItemJson = [
     ,
     { 
       "name":"Livly",
-      "ajax_link":"https://naeemshah.github.io/cv-html/portfolio/vroi.html",
+      "ajax_link":"http://naeemshah.me/portfolio/vroi.html",
       "groups":'"all", "magento", "php"',
       "image":"images/portfolio/livly.png",
       "tech":"PHP/Magento/Ecommerce"
@@ -44,7 +44,7 @@ var portfolioItemJson = [
     ,
     { 
       "name":"GetWell3",
-      "ajax_link":"https://naeemshah.github.io/cv-html/portfolio/vroi.html",
+      "ajax_link":"http://naeemshah.me/portfolio/vroi.html",
       "groups":'"all", "codeigniter", "php"',
       "image":"images/portfolio/getwell3.png",
       "tech":"PHP/Codeigniter/Ecommerce/Stripe"
@@ -53,7 +53,7 @@ var portfolioItemJson = [
     ,
     { 
       "name":"StyleFinder",
-      "ajax_link":"https://naeemshah.github.io/cv-html/portfolio/vroi.html",
+      "ajax_link":"http://naeemshah.me/portfolio/vroi.html",
       "groups":'"all", "wordpress", "php"',
       "image":"images/portfolio/stylefinder.png",
       "tech":"PHP/Wordpress/Ecommerce/Stripe"
@@ -62,7 +62,7 @@ var portfolioItemJson = [
     ,
     { 
       "name":"FroalSupply",
-      "ajax_link":"https://naeemshah.github.io/cv-html/portfolio/vroi.html",
+      "ajax_link":"http://naeemshah.me/portfolio/vroi.html",
       "groups":'"all", "magento", "php"',
       "image":"images/portfolio/floralsupply.png",
       "tech":"PHP/Magento/Ecommerce"
@@ -70,7 +70,7 @@ var portfolioItemJson = [
     },
     { 
       "name":"Hipity",
-      "ajax_link":"https://naeemshah.github.io/cv-html/portfolio/vroi.html",
+      "ajax_link":"http://naeemshah.me/portfolio/vroi.html",
       "groups":'"all", "php"',
       "image":"images/portfolio/hipity.png",
       "tech":"React Native/Nodejs/Wordpress/Joomla"
@@ -79,7 +79,7 @@ var portfolioItemJson = [
     ,
     { 
       "name":"Royal Dental Clinic",
-      "ajax_link":"https://naeemshah.github.io/cv-html/portfolio/vroi.html",
+      "ajax_link":"http://naeemshah.me/portfolio/vroi.html",
       "groups":'"all", "php"',
       "image":"images/portfolio/royaldentalclinic.png",
       "tech":"PHP/Wordpress/Ecommerce"
@@ -88,7 +88,7 @@ var portfolioItemJson = [
     ,
     { 
       "name":"JK Instruments",
-      "ajax_link":"https://naeemshah.github.io/cv-html/portfolio/vroi.html",
+      "ajax_link":"http://naeemshah.me/portfolio/vroi.html",
       "groups":'"all", "php"',
       "image":"images/portfolio/jkinstruments.png",
       "tech":"PHP/OpenCart/Ecommerce"
@@ -97,7 +97,7 @@ var portfolioItemJson = [
     ,
     { 
       "name":"London Luggage",
-      "ajax_link":"https://naeemshah.github.io/cv-html/portfolio/vroi.html",
+      "ajax_link":"http://naeemshah.me/portfolio/vroi.html",
       "groups":'"all", "php"',
       "image":"images/portfolio/londonluggage.png",
       "tech":"PHP/Wordpress/Ecommerce"
@@ -106,7 +106,7 @@ var portfolioItemJson = [
     ,
     { 
       "name":"Solar Energy",
-      "ajax_link":"https://naeemshah.github.io/cv-html/portfolio/vroi.html",
+      "ajax_link":"http://naeemshah.me/portfolio/vroi.html",
       "groups":'"all", "php"',
       "image":"images/portfolio/solarenergy.png",
       "tech":"PHP/Wordpress/Ecommerce"
