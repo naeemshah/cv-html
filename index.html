@@ -583,18 +583,18 @@
               <div class="portfolio-content">
                             
                 <!-- Portfolio filter -->
-                <ul id="portfolio_filters" class="portfolio-filters">
+                <ul id="portfolio_filters" class="portfolio-filters" style="display: none">
                   <li class="active">
                     <a class="filter btn btn-sm btn-link active" data-group="all">All</a>
                   </li>
                   <li>
-                    <a class="filter btn btn-sm btn-link" data-group="Nodejs">Nodejs</a>
+                    <a class="filter btn btn-sm btn-link" data-group="nodejs">Nodejs</a>
                   </li>
                   <li>
-                    <a class="filter btn btn-sm btn-link" data-group="Reactjs">Reactjs</a>
+                    <a class="filter btn btn-sm btn-link" data-group="reactjs">Reactjs</a>
                   </li>
                   <li>
-                    <a class="filter btn btn-sm btn-link" data-group="PHP">PHP</a>
+                    <a class="filter btn btn-sm btn-link" data-group="php">PHP</a>
                   </li>
                   <li>
                     <a class="filter btn btn-sm btn-link" data-group="python">Python</a>
@@ -613,7 +613,7 @@
                     <a class="filter btn btn-sm btn-link" data-group="wordpress">Wordpress</a>
                   </li>
                   <li>
-                    <a class="filter btn btn-sm btn-link" data-group="Magento">Magento</a>
+                    <a class="filter btn btn-sm btn-link" data-group="magento">Magento</a>
                   </li>
                   <li>
                     <a class="filter btn btn-sm btn-link" data-group="opencart">OpenCart</a>
@@ -906,7 +906,7 @@
     <div id="page-ajax-loaded" class="page-ajax-loaded animated fadeInLeft fadeOutLeft" style="display: block;">
 </div></div>
 
-
+ <!-- portfolio-item -->
 <script id="portfolio-item" type="text/x-handlebars-template">
   <figure class="item shuffle-item filtered" data-groups="[{{groups}}]" style="position: absolute; top: 0px; left: 0px; visibility: visible; transition: transform 450ms ease-out 0s, opacity 450ms ease-out 0s;">
     <a class="ajax-page-load" href="{{ajax_link}}">
@@ -919,6 +919,10 @@
     </a>
   </figure>
 </script>
+
+ <!-- portfolio-item -->
+
+ 
     
 
     <script src="js/bootstrap.min.js"></script>
