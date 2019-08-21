@@ -8,7 +8,7 @@ var portfolioItemJson = [
 
     },
     { 
-      "name":"Custom Jackets",
+      "name":"Easy Jackets",
       "ajax_link":"https://naeemshah.github.io/cv-html/portfolio/vroi.html",
       "groups":'"all", "wordpress", "reactjs", "php"',
       "image":"images/portfolio/custom_jackets.png",
