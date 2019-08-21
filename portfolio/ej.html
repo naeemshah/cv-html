@@ -1,0 +1,133 @@
+
+<script>
+     function getQueryString() {
+  var queryString = [];
+  var hash;
+  var hashes = window.location.href
+    .slice(window.location.href.indexOf('?') + 1)
+    .split('&');
+  for (var i = 0; i < hashes.length; i++) {
+    hash = hashes[i].split('=');
+    queryString.push(hash[0]);
+    queryString[hash[0]] = hash[1];
+  }
+  return queryString;
+}
+</script>
+
+<div id="portfolio-page" class="portfolio-page-content">
+    
+</div>
+
+<script id="portfolio-item-full" type="text/x-handlebars-template">
+<div class="container">
+    <div class="portfolio-nav">
+        <div id="portfolio-close-button" class="portfolio-close-button">
+            <a href="#portfolio"><i class="fa fa-close"></i></a>
+        </div>
+    </div>
+
+    <div class="portfolio-title">
+        <h1>{{name}}</h1>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-7 col-md-7 portfolio-block">
+            <div class="owl-carousel portfolio-page-carousel">
+                    {{#each images}}
+                <div class="item">
+                    <img src="{{this}}" alt="">
+                </div>
+                {{/each}}
+                
+            </div>
+
+            <!-- <div class="portfolio-page-video embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/97102654?autoplay=0"></iframe>
+            </div> -->
+
+          
+
+           
+        </div>
+
+        <div class="col-sm-5 col-md-5 portfolio-block">
+            <!-- Project Description -->
+            <div class="block-title">
+                <h3>Description</h3>
+            </div>
+            <ul class="project-general-info">
+                <li style="display: none"><p><i class="fa fa-user"></i>{{name}}</p></li>
+                <li><p><i class="fa fa-globe"></i> <a target="_blank" href="{{link}}" target="_blank">{{link}}</a></p></li>
+                <li style="display: none"><p><i class="fa fa-calendar"></i> 25 december, 2016</p></li>
+            </ul>
+
+            <p class="text-justify">{{desc}}</p>
+            <!-- /Project Description -->
+
+            <!-- Technology -->
+            <div class="tags-block">
+                <div class="block-title">
+                    <h3>Technology</h3>
+                </div>
+                <ul class="tags">
+                        {{#each tech}}
+                    <li><a>{{this}}</a></li>
+                    {{/each}}
+                    
+                </ul>
+            </div>
+            <!-- /Technology -->
+
+            <!-- Share Buttons -->
+            <div style="display: none" class="btn-group share-buttons">
+                <div class="block-title">
+                    <h3>Share</h3>
+                </div>
+                <a href="#" target="_blank" class="btn"><i class="fa fa-facebook"></i> </a>
+                <a href="#" target="_blank" class="btn"><i class="fa fa-twitter"></i> </a>
+                <a href="#" target="_blank" class="btn"><i class="fa fa-dribbble"></i> </a>
+            </div>
+            <!-- /Share Buttons -->
+        </div>
+    </div>
+</div>
+</script>
+
+<script>
+ console.log(getQueryString()["project"])
+    
+
+var portfolioItemJson = {
+    "vroi": { 
+      "name":"Easy Jacket",
+      "link":"http://easyjackets.com/custom-jacket/",
+      "images":["images/portfolio/easy_jackets/1.png","images/portfolio/easy_jackets/2.png"],
+      "tech":["Reacjs","Wordpress","MySQL","PHP"],
+      "desc":"Ecommerce website to build custom jackets. This pluign was build in ReactJs"
+
+    }
+};
+
+
+
+
+var portfolioItemHtml   = document.getElementById("portfolio-item-full").innerHTML;
+var portfolioItemTemplate = Handlebars.compile(portfolioItemHtml);
+
+console.log();
+$("#portfolio-page").append(portfolioItemTemplate(portfolioItemJson["vroi"]));
+
+jQuery(document).ready(function($){
+                    $('.portfolio-page-carousel').owlCarousel({
+                        smartSpeed:1200,
+                        items: 1,
+                        loop: true,
+                        dots: true,
+                        nav: true,
+                        navText: true,
+                        margin: 10
+                    });
+                }); 
+
+</script>
