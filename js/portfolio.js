@@ -123,6 +123,6 @@ var portfolioItemTemplate = Handlebars.compile(portfolioItemHtml);
 
 portfolioItemJson.map(function(item){
 var portfolioItem    = portfolioItemTemplate(item);
-$("#loader").hide();
+$("#loader").remove();
 $("#portfolio_grid").append(portfolioItem); 
 })
