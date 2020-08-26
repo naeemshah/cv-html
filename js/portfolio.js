@@ -1,12 +1,5 @@
 var portfolioItemJson = [
-    { 
-      "name":"Visualize-ROI",
-      "ajax_link":"https://naeemshah.me/portfolio/vroi.html",
-      "groups":'"all", "nodejs", "reactjs", "php", "python", "yii"',
-      "image":"images/portfolio/vroi.png",
-      "tech":"PHP/Reacjs/Nodejs/Yii/Python"
-
-    },
+    
     { 
       "name":"Easy Jackets",
       "ajax_link":"https://naeemshah.me/portfolio/ej.html",
